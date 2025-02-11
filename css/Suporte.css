@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../img/Barbaro.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: black;
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-link {
+    display: inline-block;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+}
+
+.navbar-button-img {
+    width: 90px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.navbar-button-img:hover {
+    transform: scale(1.1);
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 20px;
+    margin: 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+
+}
+
+.nav-links a:hover {
+    color: orangered;
+}
+
+.suporte-section {
+    padding: 50px;
+    text-align: center;
+    color: black;
+}
+
+.contact-form {
+    background-color: whitesmoke;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: orangered;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: darkred;
+}
+
+.faq-section {
+    margin-top: 50px;
+    text-align: left;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+}
+
+.faq-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px;
+}
+
+.faq-section li {
+    margin-bottom: 10px;
+}
+
+.faq-section a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+h1 {
+    color: black;
+    margin: 15px;
+    font-size: xx-large;
+
+}
+
+p {
+    color: white;
+    font-size: large;
+}
+
+.footer {
+    background-color: black;
+    padding: 1em;
+    text-align: center;
+    color: white;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 0.5em;
+}
+
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}

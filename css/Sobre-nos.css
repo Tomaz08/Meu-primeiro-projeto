@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    background-color: black;
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-link {
+    display: inline-block;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+}
+
+.navbar-button-img {
+    width: 90px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.navbar-button-img:hover {
+    transform: scale(1.1);
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 20px;
+    margin: 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+
+}
+
+.nav-links a:hover {
+    color: orangered;
+}
+
+.sobre-nos {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 50px;
+    background-color: black;
+    color: white;
+    background-image: url(../img/Sobre-nos.jpg);
+}
+
+.sobre-nos h2 {
+    font-size: 45px;
+    margin-bottom: 15px;
+    color: white;
+    margin-top: 30px;
+}
+
+.sobre-nos p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.Por-que h2 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.Por-que p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    padding: 50px;
+}
+
+.estatisticas {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 20px 0;
+}
+
+.item h3 {
+    font-size: 2.5em;
+    color: #ff6f00;
+    margin: 0;
+}
+
+.item p {
+    font-size: 1.1em;
+    margin-top: 5px;
+    color: white;
+}
+
+.valores {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.valor-item {
+    max-width: 250px;
+    padding: 20px;
+    background-color: rgba(48, 46, 46, 0.7);
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.valor-item:hover {
+    transform: translateY(-10px);
+}
+
+.valor-item i {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #f39c12;
+}
+
+.valor-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.valor-item p {
+    font-size: 16px;
+}
+
+.linha-do-tempo {
+    margin-top: 50px;
+}
+
+.linha-do-tempo h3 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #f39c12;
+}
+
+.linha-do-tempo-item {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 20px 0;
+    padding: 20px;
+    border-left: 5px solid #f39c12;
+    text-align: left;
+}
+
+.linha-do-tempo-item .ano {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f39c12;
+}
+
+.linha-do-tempo-item p {
+    font-size: 18px;
+    margin: 10px 0 0 0;
+}
+
+.footer {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
